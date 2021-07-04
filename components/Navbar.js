@@ -1,4 +1,4 @@
-import Link from 'next/Link'
+import Link from 'next/link'
 import navStyles from "../styles/Navbar.module.css";
 import Navbrand from "./Navbrand";
 
