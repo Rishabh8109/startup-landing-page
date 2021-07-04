@@ -7,9 +7,9 @@ function Navbar() {
     <>
       <nav className={navStyles.nav}>
         <div className={navStyles.container}>
-          <a href="/">
+          <Link href="/">
             <Navbrand />
-          </a>
+          </Link>
           <ul>
             <li>
               <Link href="/">Home</Link>
