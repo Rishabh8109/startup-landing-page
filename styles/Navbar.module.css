@@ -64,10 +64,6 @@
          padding: 10px 10px;
      }
 
-     .container img {
-         transform: scale(.6);
-     }
-     
      .container > ul {
          display: none;
      }
