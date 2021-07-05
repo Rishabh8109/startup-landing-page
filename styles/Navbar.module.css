@@ -21,7 +21,7 @@
   display: flex;
   align-items: center;
   justify-content: space-around;
-  width: 50%;
+  width: 40%;
   font-size: 16px;
 }
 
@@ -36,7 +36,7 @@
 .container button {
   padding: 12px 20px;
   background: none;
-  border: 1px solid #ff346d;
+  border: 2px solid #ff346d;
   color: #ff346d;
   border-radius: 50px;
   cursor: pointer;
@@ -61,7 +61,7 @@
      .container {
          width: 100%;
          justify-content: space-between;
-         padding: 10px 10px;
+         padding: 13px 10px;
      }
 
      .container > ul {
