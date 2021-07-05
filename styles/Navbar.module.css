@@ -5,6 +5,7 @@
   position: sticky;
   top: 0;
   border-bottom: 1px solid whitesmoke;
+  z-index: 10;
 }
 
 .container {
@@ -60,7 +61,7 @@
 }
 
 /* Tab breakpoint on mobile screen */
-@media screen and (max-width : 360px){
+@media screen and (max-width : 500px){
      .container {
          width: 100%;
          justify-content: space-between;

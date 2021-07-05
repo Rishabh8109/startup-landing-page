@@ -1,4 +1,6 @@
+import Image from 'next/image';
 import styles from '../styles/Hero.module.css';
+import hero from '../public/images/Screenshot(1).png'
 
 function Hero() {
     return (
@@ -12,6 +14,10 @@ function Hero() {
                Explore
             </button>
           </p>
+          <Image
+           src={hero}
+           alt="hero_image"
+         />
         </div>
     )
 }

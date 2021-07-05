@@ -1,5 +1,18 @@
-.container {
+/* .container {
     width: 80%;
     display: block;
     margin: auto;
+} */
+
+.hero {
+    background: url('../public//images/hero.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+    background-position: center;
+}
+
+
+@media screen and (max-width : 500px) {
+     
 }
