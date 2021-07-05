@@ -1,0 +1,56 @@
+.container {
+    text-align: center;
+    padding: 60px 0;
+}
+
+.title {
+    font-size: 2.5rem;
+    font-weight: bolder;
+    max-width: 400px;
+    margin: auto;
+}
+
+.description {
+    font-size: 1.2rem;
+    max-width: 500px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 1.7;
+}
+
+.button {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.button button {
+    padding: 16px 30px;
+    background: #ff346d;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button button:hover {
+    box-shadow: 1px 2px 12px 0px #e8556f;
+    transition: box-shadow .3s linear;
+}
+
+/* Tab breakpoint on mobile screen */
+@media screen and (max-width : 360px){
+   .title {
+       font-size: 1.5rem;
+   }
+   .description {
+       font-size: 1rem;
+   }
+
+   .button button {
+       padding: 14px 20px;
+       font-size: 12px;
+   }
+}

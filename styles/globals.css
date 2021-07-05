@@ -1,9 +1,8 @@
-@import url('https://fonts.googleapis.com/css2?family=DM+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans');
 
 * {
   box-sizing: border-box;
 }
-
 
 body {
   padding: 0;
