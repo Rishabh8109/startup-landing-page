@@ -197,7 +197,7 @@ function Features() {
       <section className={styles.functions}>
         <div className={styles.container}>
            <p className={styles.title}>whats the function</p>
-           <h1 className={styles.subtitle}>Let's see how it works</h1>
+           <h1 className={styles.subtitle}>Let see how it works</h1>
           <div className={styles.functions_box}>
             <div className={styles.box}>
               <div className={styles.numbers}>01</div>
