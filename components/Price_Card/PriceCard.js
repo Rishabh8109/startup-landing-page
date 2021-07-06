@@ -21,7 +21,7 @@ function PriceCard({
              </li>  
              <li>
                <span><AiFillCheckCircle /></span>
-               1000's of Templetes
+               1000 of Templetes
              </li>  
              <li>
                <span><AiFillCheckCircle /></span>
