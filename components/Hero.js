@@ -1,6 +1,7 @@
 import Image from 'next/image';
 import styles from '../styles/Hero.module.css';
 import hero from '../public/images/Screenshot(1).png'
+import Button from './Button';
 
 function Hero() {
     return (
@@ -10,9 +11,7 @@ function Hero() {
             Get your blood tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.
           </p>
           <p className={styles.button}>
-            <button>
-               Explore
-            </button>
+            <Button text=" Explore" />
           </p>
           <Image
            src={hero}

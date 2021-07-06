@@ -15,7 +15,7 @@ export default function Home() {
       <div id="home" className={styles.hero}>
          <Hero />
       </div> 
-      <div id="feature">
+      <div id="features">
          <Features />
       </div>
     </div>

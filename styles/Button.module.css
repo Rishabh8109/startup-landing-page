@@ -1,0 +1,21 @@
+.button {
+    text-align: center;
+    margin-top: 25px;
+}
+
+ .button {
+    padding: 16px 30px;
+    background: #ff346d;
+    font-size: 1rem;
+    letter-spacing: 1px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.button:hover {
+    box-shadow: 1px 2px 12px 0px #e8556f;
+    transition: box-shadow .3s linear;
+}
