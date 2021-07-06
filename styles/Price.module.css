@@ -1,0 +1,105 @@
+.container {
+  width: 80%;
+  margin: auto;
+  display: block;
+  padding: 40px 0;
+}
+
+.tabs > .buttons {
+  background: rgb(247, 247, 247);
+  border-radius: 3px;
+  width: 250px;
+  margin: auto;
+  text-align: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  cursor: pointer;
+  padding: 10px 0px;
+  font-size: 13px;
+  margin-top: 25px;
+}
+
+.tabs > .buttons span {
+  padding: 10px;
+  border-radius: 4px;
+  transition: .4s;
+}
+
+.tabs .pricing {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 40px 0
+}
+
+.pricing > * {
+  flex: 1 1 30%;
+}
+
+.price_card {
+  height: 450px;
+  border: 1px solid rgb(235, 235, 235);
+  border-radius: 10px;
+  padding: 0 40px;
+  width: 100%;
+  margin: 10px 10px;
+  cursor: pointer;
+  text-align: left;
+}
+
+
+.price_card:hover {
+  box-shadow: 1px 0px 36px 0px #f9f9f9;
+  transition: box-shadow .3s linear;
+}
+
+.price_card ul {
+  line-height: 3;
+  padding: 0;
+  margin-top: 20px;
+  animation: fadeIn .8s ease-in;
+}
+
+.price_card ul li:not(span) {
+  list-style: none;
+  font-size: 13px;
+  opacity: .8;
+}
+
+.price_card ul li span {
+  color: rgba(255, 0, 55, 0.966);
+  margin-right: 10px;
+}
+
+.price_card h4 {
+  font-weight: bold;
+  margin-bottom: 0;
+}
+
+.price_card p {
+  font-size: 12px;
+  opacity: .7;
+}
+
+.cardFooter {
+  text-align: center;
+  animation: fadeIn .8s ease-in;
+}
+
+.cardFooter span {
+  font-size: 12px;
+  opacity: .6;
+  font-weight: normal;
+}
+
+
+@keyframes fadeIn {
+  from {
+    opacity: .5;
+    transform: translateY(10px);
+  }
+  to {
+    transform: translateY(0px);
+    opacity: 1; 
+  }
+}

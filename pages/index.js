@@ -1,6 +1,7 @@
 import Head from 'next/head';
 import Hero from '../components/Hero';
 import Features from '../components/Features';
+import Pricing from '../components/Pricing';
 import styles from '../styles/Home.module.css';
 
 
@@ -17,6 +18,9 @@ export default function Home() {
       </div> 
       <div id="features">
          <Features />
+      </div>
+      <div id="pricing">
+         <Pricing />
       </div>
     </div>
   )
