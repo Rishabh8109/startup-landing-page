@@ -8,6 +8,7 @@ import {AiOutlineTwitter} from 'react-icons/ai';
 import {AiOutlineInstagram} from 'react-icons/ai';
 
 function Pricing() {
+  const myLoader = (img_url) => `${img_url}`
   return (
     <div className={styles.container}>
       <p className={featureStyles.title}>Pricing Plan</p>
@@ -22,7 +23,13 @@ function Pricing() {
           {members.map(({ img_url, name, post }) => (
             <>
               <div className={styles.member_card}>
-                <img src={img_url} alt="members" />
+                <Image 
+                 loader={() => myLoader(img_url)}
+                 src="member.ppg" 
+                 alt="members"
+                 width={100} 
+                 height={100}
+                 />
                 <div className={styles.member_data}>
                   <h4>{name}</h4>
                   <p>{post}</p>
