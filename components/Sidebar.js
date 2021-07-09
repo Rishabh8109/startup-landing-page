@@ -18,7 +18,7 @@ function Sidebar({open , setopen}) {
     return (
         <div className={styles.sidebar} style={sidebarStyle}>
             <Navlinks />
-            <MdClose className={styles.closeIcon} onClick={() => setopen(close)}/>
+            <MdClose className={styles.closeIcon} onClick={() => setopen(false)}/>
         </div>
     )
 }
