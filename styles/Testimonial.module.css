@@ -1,0 +1,304 @@
+.container {
+  width: 50% !important;
+  margin: auto;
+  display: block;
+  padding-top : 20px;
+}
+
+.testimonial {
+  position: relative;
+  background-color: rgb(255, 255, 255);
+}
+
+.testimonial .slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 1rem 0;
+  transition: transform 0.3s linear;
+  padding-bottom: 20px;
+  height: 385px;
+  width: auto;
+  overflow: hidden;
+}
+
+.testimonial_card .testimonial_footer img {
+  border-radius: 50%;
+}
+
+.testimonial_card {
+  line-height: 0.8;
+  padding: 1rem 0;
+  border: 1px solid whitesmoke;
+  border-radius: 10px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  box-shadow: 1px 0px 10px 0px rgb(224, 223, 223);
+  width: 300px;
+  margin: auto;
+}
+
+.testimonial_card .description {
+  width: 300px;
+  line-height: 1.8;
+  font-size: 14px;
+  opacity: 0.7;
+}
+
+.userinfo {
+  line-height: 0.3;
+  padding-left: 14px;
+}
+
+.testimonial_card .testimonial_footer .userinfo p {
+  color: rgb(224, 21, 55);
+  font-size: 14px;
+}
+
+.testimonial_card .testimonial_footer {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.controls {
+  text-align: center;
+  font-size: 2rem;
+}
+
+.rating {
+  color: rgb(194, 194, 194);
+  margin-top: 15px;
+  position: relative;
+}
+
+.user_rating {
+  position: absolute;
+  top: 30px;
+  color: rgb(228, 21, 55);
+}
+
+/* blog section style */
+
+.subtitle {
+  text-align: center;
+  width: 400px;
+  margin: auto;
+}
+
+section .blogs {
+  margin-top: 20px;
+}
+
+.card {
+  width: 350px;
+  height: 350px;
+  box-shadow: 1px 0px 10px 0px rgb(224, 223, 223);
+  border-radius: 8px;
+  background-color: #fff;
+}
+
+.cardImage img {
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.card h4 {
+  width: 200px;
+  text-align: left;
+  margin-left: 14px;
+  margin-top: 5px;
+  font-size: 14px;
+  color: rgb(48, 46, 46);
+  cursor: pointer;
+}
+
+.card h4:hover {
+    color :rgb(228, 21, 55);
+}
+
+.card .cardFooter {
+  text-align: left;
+  padding-left: 14px;
+  font-size: 12px;
+}
+
+.card .cardFooter span:nth-child(1) {
+  color: rgb(230, 15, 50);
+}
+
+.card .cardFooter span:nth-child(even) {
+  float: right;
+  margin-right: 14px;
+}
+
+/* blog subcription sectin */
+.subcription {
+  width: 90%;
+  background: #fd3056;
+  margin: auto;
+  border-radius: 10px;
+  text-align: center;
+  color: #fff;
+  padding: 15px 0;
+  margin-top: 40px;
+}
+
+.subcription h1 {
+  font-weight: bolder;
+}
+
+.subcription p {
+  width: 400px;
+  margin: auto;
+  transform: translateY(-20px);
+  font-size: 14px;
+  line-height: 2;
+}
+
+.subcription input {
+  width: 450px;
+  border: none;
+  outline: none;
+  height: 50px;
+  border-radius: 50px;
+  padding-left: 20px;
+  background: #fff;
+}
+
+.subcription input::placeholder {
+  color: rgb(184, 14, 42);
+  font-family: 10px;
+}
+
+.subcription .input {
+  position: relative;
+  width: 50%;
+  margin: auto;
+  height: 120px;
+}
+
+.subcription button {
+  height: 45px;
+  border-radius: 50px;
+  outline: none;
+  border: none;
+  padding: 7px 14px;
+  position: absolute;
+  right: 9.7%;
+  top: 3px;
+  background: #fd3056;
+  color: #fff;
+  font-size: 10px;
+  width: 88px;
+  font-weight: 600;
+  cursor: pointer;
+}
+
+.subcription input:focus {
+  box-shadow: 1px 0px 20px 1px #d21334;
+  transition: all 0.3s linear;
+}
+
+
+.arrowLeft:hover , .arrowRight:hover {
+    color: rgb(253, 19, 58) !important;
+}
+
+.wrapper {
+    width: 80%;
+    margin: 3rem auto;
+    padding-bottom: 10px;
+    border-bottom: 1px solid whitesmoke;
+}
+
+.wrapper .row {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    text-align: center;
+}
+
+.wrapper .row > * {
+    flex:  1 1 33%;
+}
+
+.wrapper .icon {
+   font-size: 1.5rem;
+   color :rgb(228, 21, 55);
+}
+
+.wrapper .row p {
+    font-size: 12px;
+    opacity: .7;
+    width: 200px;
+    line-height: 2;
+    margin: auto;
+}
+
+
+
+@media screen and (max-width: 500px) {
+  .container {
+    width: 90% !important;
+  }
+
+  .arrowLeft {
+    left: 7% !important;
+  }
+
+  .testimonial_card .description {
+    font-size: 12px;
+    padding: 0 10px;
+    width: 200px;
+  }
+  .testimonial_card .testimonial_footer img {
+    width: 35px;
+    height: 35px;
+  }
+
+  .testimonial_card .userinfo {
+    font-size: 12px;
+  }
+
+  .card {
+    transform: scale(0.7);
+  }
+
+  .subtitle {
+    font-size: 20px;
+    width: 300px;
+  }
+  .subcription {
+    width: 100%;
+    padding: 20px 10px;
+    font-size: 12px;
+  }
+  
+  .subcription input {
+    width: 250px;
+  }
+
+  .subcription p {
+    width: 100%;
+    font-size: 12px;
+  }
+
+  .subcription .input {
+      width: 100%;
+  }
+  .subcription button {
+    position: static;
+    margin-top: 16px;
+    background: #020101;
+    color: #fff;
+  }
+
+  .wrapper .row .col {
+     padding : 20px 0
+  }
+}

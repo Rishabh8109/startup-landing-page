@@ -20,9 +20,8 @@ function Pricing() {
           The most qualified and talented individuals
         </h2>
         <div className={styles.members}>
-          {members.map(({ img_url, name, post }) => (
-            <>
-              <div className={styles.member_card}>
+          {members.map(({id , img_url, name, post }) => (
+              <div className={styles.member_card} key={id}>
                 <Image 
                  loader={() => myLoader(img_url)}
                  src="member.ppg" 
@@ -46,7 +45,6 @@ function Pricing() {
                    </p>
                 </div>
               </div>
-            </>
           ))}
         </div>
       </div>

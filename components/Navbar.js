@@ -1,29 +1,17 @@
-import Link from 'next/link'
+
 import navStyles from "../styles/Navbar.module.css";
 import Navbrand from "./Navbrand";
+import Navlinks from './Navlinks';
+import {BiMenu} from 'react-icons/bi';
 
-function Navbar() {
+function Navbar({setopen}) {
   return (
     <>
       <nav className={navStyles.nav}>
-        <div className={navStyles.container}>
-          <Link href="/">
-            <Navbrand />
-          </Link>
-          <ul>
-            <li>
-              <Link href="#home">Home</Link>
-            </li> 
-            <li>
-              <Link href="#features">Feature</Link>
-            </li>
-            <li>
-              <Link href="/">Pricing</Link>
-            </li> 
-            <li>
-              <Link href="/">Testimonial</Link>
-            </li>
-          </ul>
+      <div className={navStyles.container}>
+          <BiMenu className={navStyles.menu} onClick={() => setopen(true)} />                                  
+           <Navbrand />
+           <Navlinks />
           <button>
             Get Started
           </button>
