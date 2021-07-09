@@ -27,7 +27,7 @@ function TestimonialCarousel({children}) {
             }}
           />
         ),
-        renderArrowNext : (onClickHandler , hasPrev) => (
+        renderArrowNext : (onClickHandler) => (
          <BsArrowRight  onClick={onClickHandler} className={styles.arrowRight} style={{
             ...arrowStyle,
              right : '0%'
