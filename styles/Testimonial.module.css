@@ -310,10 +310,12 @@ section .blogs {
    .testimonial {
      height: 400px;
    }
+   
    .card {
       transform: scale(.9);
       height: 280px;
    }
+
    .arrowLeft {
     left: 5% !important;
     background-color: rgb(231, 229, 229);

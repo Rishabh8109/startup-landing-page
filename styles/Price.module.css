@@ -183,7 +183,14 @@
 }
 
 @media screen and (max-width : 800px) {
-   .members {
-      grid-template-columns:  repeat(2 , 1fr);
-   }
+  .members {
+    padding: 10px 0;
+     grid-row-gap: 10px;
+  }
+
+  .social_media_account {
+     width: 20px;
+     right: 5px;
+     top : 10%
+  }
 }

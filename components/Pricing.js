@@ -15,7 +15,7 @@ function Pricing() {
       <h2 className={featureStyles.subtitle}>Choose Your Pricing Policy</h2>
       <PricingTab />
       <div className={styles.team}>
-        <p className={featureStyles.title}>Pricing Plan</p>
+        <p className={featureStyles.title}>out team</p>
         <h2 className={featureStyles.subtitle}>
           The most qualified and talented individuals
         </h2>
