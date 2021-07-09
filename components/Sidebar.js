@@ -13,7 +13,7 @@ function Sidebar({open , setopen}) {
         left:"0",
         zIndex: "99",
         transform: open ? 'translateX(0)' : 'translateX(-80vw)',
-        transition : 'all .4s ease-in-out'
+        transition : 'all .2s ease-in'
     }
     return (
         <div className={styles.sidebar} style={sidebarStyle}>

@@ -65,10 +65,9 @@
 }
 
 
-
-
 .footer ul li:hover {
   color: #ff346d;
+  cursor: pointer;
 }
 
 .container button {
@@ -113,6 +112,7 @@
   font-size: 12px;
   padding: 10px;
   font-weight: 500;
+  cursor: pointer;
 }
 
 .sidebar ul li:hover {
