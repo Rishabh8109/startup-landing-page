@@ -1,7 +1,7 @@
-import {BsArrowLeft , BsArrowRight} from 'react-icons/bs';
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 import styles from '../../styles/Testimonial.module.css';
+import {BsArrowLeft , BsArrowRight} from 'react-icons/bs';
 
 function TestimonialCarousel({children}) {
     const arrowStyle = {
