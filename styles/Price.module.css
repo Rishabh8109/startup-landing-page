@@ -194,10 +194,10 @@
   .social_media_account {
      width: 20px;
      right: 10px;
-     top : 10%
   }
   .price_card {
     height: auto;
+    font-size: 12px;
   }
 
   .member_card {
