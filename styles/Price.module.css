@@ -183,6 +183,9 @@
 }
 
 @media screen and (max-width : 800px) {
+  .container {
+    width: 100%;
+  }
   .members {
     padding: 10px 0;
      grid-row-gap: 10px;
@@ -190,7 +193,7 @@
 
   .social_media_account {
      width: 20px;
-     right: 5px;
+     right: 10px;
      top : 10%
   }
 }
