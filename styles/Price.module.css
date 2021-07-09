@@ -196,4 +196,7 @@
      right: 10px;
      top : 10%
   }
+  .price_card {
+    height: auto;
+  }
 }
