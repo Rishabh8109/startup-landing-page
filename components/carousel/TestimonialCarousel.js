@@ -20,16 +20,16 @@ function TestimonialCarousel({children}) {
          showIndicators : false,
          showStatus : false,
          swipeable : true,
-        showThumbs : false,
-        infiniteLoop : true,
-        autoPlay : true,
+         showThumbs : false,
+         infiniteLoop : true,
+         autoPlay : true,
     }
     return (
         <Carousel
              {...setting}
              renderArrowPrev = {(onClickHandler) => (<BsArrowLeft  onClick={onClickHandler} className={styles.arrowLeft} style={{ ...arrowStyle, left : '2%' }} />)}
              renderArrowNext = {(onClickHandler) =>  (<BsArrowRight  onClick={onClickHandler} className={styles.arrowRight} style={{...arrowStyle, right : '0%' }} />)}
-            className={styles.carousel}
+             className={styles.carousel}
          >
            {children} 
         </Carousel>

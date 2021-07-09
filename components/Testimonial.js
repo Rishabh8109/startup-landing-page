@@ -12,7 +12,7 @@ function Testimonial() {
    
     return (
        <>
-        <section className={styles.container}>
+        <section className={featureStyle.container}>
         <p className={featureStyle.title}>testimonial</p>
             <h1 className={featureStyle.subtitle}>Meet Client Satisfaction</h1>
             <div className={styles.testimonial}>

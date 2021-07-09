@@ -58,7 +58,7 @@ function Features() {
         </div>
         <div className={styles.feature_box}>
           <div className={styles.v_box}>
-            <Image src={vImage} width={550} height={450} alt="v_image" />
+            <Image src={vImage} width={550} height={450} alt="v_image" layout="responsive"/>
             <svg
               viewBox="0 0 200 200"
               xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +190,7 @@ function Features() {
             <Button text="Get Started" />
           </div>
           <div className={styles.lady_image}>
-            <Image src={vImage2} width={500} height={400} alt="v_image2" />
+            <Image src={vImage2} width={500} height={400} alt="v_image2" layout="responsive"/>
           </div>
         </div>
       </div>

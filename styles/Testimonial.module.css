@@ -83,6 +83,13 @@
 
 /* blog section style */
 
+.blogContainer {
+  width: 50% !important;
+  margin: 80px auto;
+  display: block;
+  padding-top : 20px;
+}
+
 .subtitle {
   text-align: center;
   width: 400px;
@@ -204,10 +211,6 @@ section .blogs {
 }
 
 
-.arrowLeft:hover , .arrowRight:hover {
-    color: rgb(253, 19, 58) !important;
-}
-
 .wrapper {
     width: 80%;
     margin: 3rem auto;
@@ -300,5 +303,33 @@ section .blogs {
 
   .wrapper .row .col {
      padding : 20px 0
+  }
+}
+
+@media screen and (max-width : 800px) {
+   .testimonial {
+     height: 400px;
+   }
+   .card {
+      transform: scale(.9);
+      height: 280px;
+   }
+   .arrowLeft {
+    left: 5% !important;
+    background-color: rgb(231, 229, 229);
+    border-radius: 50%;
+    color: rgb(15, 15, 15) !important;
+   } 
+     .arrowRight {
+     background-color: rgb(231, 227, 227);
+     border-radius: 50%;
+     right: -10%;
+     color: rgb(14, 12, 12) !important;
+   } 
+   .subcription .input {
+    width: 100%;
+  }
+  .subcription button { 
+    right: 15.7%;
   }
 }
