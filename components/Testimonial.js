@@ -5,7 +5,7 @@ import Image from 'next/image';
 import Blog from './Blog';
 import Rating from './Rating';
 import TestimonialCarousel from './carousel/TestimonialCarousel';
-import {AiFillStar} from 'react-icons/ai';
+
 
 function Testimonial() {
     const myLoader = (img_url) => `${img_url}`;

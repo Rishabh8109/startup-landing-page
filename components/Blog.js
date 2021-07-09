@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from "react";
 import featureStyle from "../styles/Feature.module.css";
 import styles from "../styles/Testimonial.module.css";
+import Image from "next/image";
 import TestimonialCarousel from "./carousel/TestimonialCarousel";
 import { blogData } from "../contants/blogData";
-import Image from "next/image";
 import { RiCommunityFill } from "react-icons/ri";
 import { BsFillChatSquareDotsFill } from "react-icons/bs";
 import { AiFillGithub } from "react-icons/ai";

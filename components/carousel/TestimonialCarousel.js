@@ -36,4 +36,5 @@ function TestimonialCarousel({children}) {
     )
 }
 
+TestimonialCarousel.displayName = 'TestimonialCarousel';
 export default TestimonialCarousel;
